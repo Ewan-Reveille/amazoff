@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="footerSection">
         <h3 className="text-xl mb-4 text-gray-300">Marketing</h3>
         <ul className="space-y-2">
-          <li><a href="#" className="hover:underline">Nos offres d'affiliation</a></li>
+          <li><a href="#" className="hover:underline">Nos offres d&apos;affiliation</a></li>
           <li><a href="#" className="hover:underline">Nos réseaux sociaux</a></li>
           <li><a href="#" className="hover:underline">Nos évènements</a></li>
         </ul>
@@ -43,7 +43,7 @@ export default function Footer() {
       </div>
 
       <div className="footerSection">
-        <h3 className="text-xl mb-4 text-gray-300">Centre d'aide</h3>
+        <h3 className="text-xl mb-4 text-gray-300">Centre d&apos;aide</h3>
         <ul className="space-y-2">
           <li><a href="#" className="hover:underline">Votre compte</a></li>
           <li><a href="#" className="hover:underline">Vos paiements</a></li>
