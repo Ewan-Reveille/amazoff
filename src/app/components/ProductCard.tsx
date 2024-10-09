@@ -89,8 +89,8 @@ export default function ProductCard({
       </div>
 
       <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
-        <Button variant="outline" className="w-full md:w-1/2">Details</Button>
-        <Button variant="default" className="w-full md:w-1/2">Add to Cart</Button>
+        <Button variant="outline" className="w-full md:w-1/2" title={`Détails de ${title}`} aria-label="Ouvre un modal avec les détails">Details</Button>
+        <Button variant="default" className="w-full md:w-1/2" title={`Ajouter ${title} au panier`} aria-label="Ajouter au panier">Add to Cart</Button>
       </div>
     </div>
   );

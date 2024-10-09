@@ -45,7 +45,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/hero-background.png"
-          alt="Hero Background"
+          alt="Image de fond avec un fleuriste"
           fill={true}
           priority={true}
           className='object-cover'
